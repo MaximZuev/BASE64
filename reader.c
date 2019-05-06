@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <getopt.h>
 
+#include "reader.h"
+
 static void help(){
     printf("You are using Base-64 encoder/decoder.\n");
     printf("To encode your file use pattern \"-e \'input file name\' \'output file name\'\".\n");
